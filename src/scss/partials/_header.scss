@@ -1,0 +1,119 @@
+header {
+  background-image: url("../img/cupcakestock_forest-min.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 75px;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 10px 20px;
+  transition: all 0.5s;
+}
+
+nav a:hover {
+  background: #fff;
+  color: $black;
+}
+
+
+header a {
+  color: #fff;
+}
+
+header h4,
+header h3 {
+  opacity: 0.3;
+}
+
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.headerSocial {
+  display: flex;
+  margin-left: 10px;
+}
+
+.headerSocial_div {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  padding: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.headerSocial_div:hover {
+  background: #fff;
+}
+
+.headerSocial_div:last-child {
+  margin-right: 0;
+}
+
+.headerSocial_div:hover .headerSocial_icon{
+  color: $black;
+}
+
+.headerSocial_div i {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.helloHeader,
+.scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.helloHeader {
+  margin: auto;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll {
+  align-self: flex-end;
+  margin: 0 auto;
+  opacity: 0.6;
+  display: inline-block;
+  margin-left: 50%;
+}
+
+.scroll:hover {
+  opacity: 0.3;
+}

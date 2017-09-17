@@ -1,0 +1,55 @@
+.contact {
+  background: url('../img/simson-petrol-path-min.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin-top: 150px;
+  text-align: center;
+}
+
+
+.contactContainer {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contact h2 {
+  margin-bottom: 100px;
+}
+
+.contact a {
+  color: #fff;
+  padding: 10px 30px;
+  transition: all 0.5s;
+}
+
+.contact a:hover {
+  background-color: #fff;
+  color: $black;
+}
+
+.contactLeft {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.contactLeft p {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.contactRight {
+  text-align: left;
+}
+
+.contactRight p {
+  margin-bottom: 45px;
+}
+
+.contactRight i {
+  margin-right: 35px;
+}

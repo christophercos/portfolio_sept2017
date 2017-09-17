@@ -1,0 +1,64 @@
+@import './partials/_setup.scss';
+@import './partials/_variables.scss';
+@import './modules/_typography.scss';
+@import './modules/_buttons.scss';
+@import './partials/_header.scss';
+@import './partials/_about.scss';
+@import './partials/_portfolio.scss';
+@import './partials/_skillsOne.scss';
+@import './partials/_skillsTwo.scss';
+@import './partials/_recreation.scss';
+@import './partials/_contact.scss';
+@import './partials/_footer.scss';
+
+.loader {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $black;
+}
+
+.loader i {
+  color: $grey;
+  z-index: 10000;
+}
+
+// #loader-wrapper .loader-section {
+//   position: fixed;
+//   top: 0;
+//   width: 51%;
+//   height: 100%;
+//   background: $black;
+//   z-index: 1000;
+// }
+//
+// #loader-wrapper .loader-section.section-left {
+//   left: 0;
+// }
+//
+// #loader-wrapper .loader-section.section-right {
+//   right: 0;
+// }
+
+
+section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@import './modules/_breakpoints.scss';

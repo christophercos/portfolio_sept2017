@@ -1,0 +1,66 @@
+footer {
+  padding-top: 75px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footerSocial {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+.footerSocial_div {
+  width: 55px;
+  height: 55px;
+  border: 1px solid $black;
+  padding: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.footerSocial_div i {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transition: all 0.6s;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+.footerSocial_div:hover {
+  background: $black;
+}
+
+.footerSocial_div:hover .footerSocial_icon {
+  color: $grey;
+}
+
+footer p {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}

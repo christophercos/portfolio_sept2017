@@ -1,0 +1,107 @@
+.portfolio {
+  text-align: center;
+}
+
+.portfolio h2 {
+  margin-bottom: 120px;
+}
+
+.galleryWrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galleryItem {
+  flex-basis: 50%;
+}
+
+.galleryItem:hover .galleryImage a {
+  opacity: 1;
+}
+
+.galleryItem:hover .imageOverlay {
+  opacity: 1;
+}
+
+.galleryItem:hover .galleryDesc {
+  background-color: $black;
+  color: #fff;
+}
+
+.galleryImage {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 465px;
+  width: 100%;
+}
+
+.galleryImage_1 {
+  background: url('../img/BleachifyMockup-min.png');
+  background-size: cover;
+}
+
+.galleryImage_2 {
+  background: url('../img/UniversMockup-min.png');
+  background-size: cover;
+}
+
+.galleryImage_3 {
+  background: url('../img/TimekeepMockup-min.png');
+  background-size: cover;
+}
+
+.galleryImage_4 {
+  background: url('../img/MetalMockup-min.png');
+  background-size: cover;
+}
+
+.imageOverlay {
+  height: 465px;
+  background: linear-gradient($grey, $grey);
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.galleryImage a {
+  color: $black;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.galleryImage a:hover {
+  background-color: $black;
+  color: #fff;
+  border: none;
+}
+
+.galleryImage a:active {
+  background-color: $grey;
+  color: $black;
+}
+
+.galleryDesc {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 50%;
+  transition: all 0.3s;
+}
+
+.galleryDesc h4 {
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+.galleryDesc p {
+  opacity: 0.5;
+}
+
+.galleryDesc h4,
+.galleryDesc p {
+  text-align: left;
+  transform: translateX(-50%);
+}

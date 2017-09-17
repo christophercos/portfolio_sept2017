@@ -1,0 +1,28 @@
+.skills2 {
+  background: $grey;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skillSet {
+  width: 305px;
+  text-align: center;
+}
+
+.skillSet:hover .skillIcon {
+  transform:translateY(-15px);
+}
+
+.skillSet h2 {
+  margin-bottom: 40px;
+}
+
+.skillIcon {
+  color: $black;
+  margin-bottom: 55px;
+  transition: all 0.5s;
+}
