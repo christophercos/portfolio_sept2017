@@ -206,6 +206,14 @@ ul {
   -ms-flex-pack: justify;
       justify-content: space-between; }
 
+nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+
 nav a {
   padding: 10px 20px;
   transition: all 0.5s; }
@@ -228,7 +236,8 @@ header h3 {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  width: 100%; }
+  width: 100%;
+  height: 55px; }
 
 .headerSocial {
   display: -ms-flexbox;
@@ -295,6 +304,66 @@ header h3 {
 
 .scroll:hover {
   opacity: 0.3; }
+
+#nav-icon1 {
+  width: 30px;
+  height: 15px;
+  position: relative;
+  margin-left: 30px;
+  padding-bottom: 40px;
+  -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  transition: .5s ease-in-out;
+  cursor: pointer; }
+
+#nav-icon1 span {
+  display: inline-block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #f3f3f3;
+  border-radius: 9px;
+  opacity: 0.6;
+  left: 0;
+  -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  transition: .25s ease-in-out; }
+
+#nav-icon1:hover {
+  opacity: 0.5; }
+
+#nav-icon1 span:nth-child(1) {
+  top: 0px; }
+
+#nav-icon1 span:nth-child(2) {
+  top: 10px; }
+
+#nav-icon1 span:nth-child(3) {
+  top: 20px; }
+
+#nav-icon1.open span:nth-child(1) {
+  top: 18px;
+  -ms-transform: rotate(135deg);
+      transform: rotate(135deg); }
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px; }
+
+#nav-icon1.open span:nth-child(3) {
+  top: 18px;
+  -ms-transform: rotate(-135deg);
+      transform: rotate(-135deg); }
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s; }
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.2s; }
 
 .introduction {
   background: #f3f3f3;
@@ -662,7 +731,7 @@ a {
 @media only screen and (max-width: 1140px) {
   .headerSocial {
     margin-left: 100px; }
-  ul {
+  nav {
     margin-right: 100px; }
   .recreationItem {
     width: 150px;
@@ -711,7 +780,11 @@ a {
     -ms-flex-direction: column;
         flex-direction: column; }
   .headerSocial {
-    margin-left: 0; }
+    display: none; }
+  nav {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin-right: 0; }
   .contactContainer {
     -ms-flex-direction: column;
         flex-direction: column;
