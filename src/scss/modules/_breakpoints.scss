@@ -82,6 +82,11 @@
     font-size: 13px;
   }
 
+  header h3,
+  header h4 {
+    opacity: 0.8;
+  }
+
   .headerBar {
     flex-direction: column;
   }
