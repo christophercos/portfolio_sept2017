@@ -12,8 +12,8 @@
   background: url('../img/chris_placeholder-min.jpg');
   background-position: -30px center;
   background-size: cover;
-  width: 215px;
-  height: 215px;
+  width: 275px;
+  height: 275px;
   overflow: hidden;
   border: 5px solid #e7e7e7;
   border-radius: 50%;
@@ -26,4 +26,15 @@
   margin: 0 auto;
   display: block;
   margin-top: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.introContainer {
+  display: flex;
+  align-items: center;
+}
+
+.introContainer p:nth-child(4) {
+  text-align: center;
 }
