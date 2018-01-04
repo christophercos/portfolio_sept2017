@@ -401,7 +401,7 @@ header h3 {
   -ms-flex-align: center;
       align-items: center; }
 
-.introContainer p:nth-child(4) {
+.introContainer p:nth-child(5) {
   text-align: center; }
 
 .portfolio {
@@ -444,22 +444,22 @@ header h3 {
   width: 100%; }
 
 .galleryImage_1 {
-  background: url("../img/BleachifyMockup-min.png");
+  background: url("../img/SherbourneMockup.png");
   background-size: cover;
   background-position: center; }
 
 .galleryImage_2 {
-  background: url("../img/UniversMockup-min.png");
+  background: url("../img/BleachifyMockup-min.png");
   background-size: cover;
   background-position: center; }
 
 .galleryImage_3 {
-  background: url("../img/TimekeepMockup-min.png");
+  background: url("../img/BigFlannelBurger_Mockup_V1.png");
   background-size: cover;
   background-position: center; }
 
 .galleryImage_4 {
-  background: url("../img/MetalMockup-min.png");
+  background: url("../img/TimekeepMockup-min.png");
   background-size: cover;
   background-position: center; }
 
@@ -526,10 +526,14 @@ header h3 {
   margin-right: 50px; }
 
 .carousel-cell i {
-  font-size: 8rem;
+  font-size: 8rem; }
+
+.carousel-cell i,
+.carousel-cell img {
   transition: all 0.5s; }
 
-.carousel-cell i:hover {
+.carousel-cell i:hover,
+.carousel-cell img:hover {
   opacity: 0.5; }
 
 .skills2 {
@@ -757,6 +761,9 @@ a {
     font-size: 20px; } }
 
 @media only screen and (max-width: 900px) {
+  header,
+  .contact {
+    background-attachment: scroll; }
   .introContainer {
     -ms-flex-direction: column;
         flex-direction: column; }
@@ -786,10 +793,7 @@ a {
 @media only screen and (max-width: 768px) {
   .copyright {
     -ms-flex-direction: column;
-        flex-direction: column; }
-  header,
-  .contact {
-    background-attachment: scroll; } }
+        flex-direction: column; } }
 
 @media only screen and (max-width: 640px) {
   h1 {

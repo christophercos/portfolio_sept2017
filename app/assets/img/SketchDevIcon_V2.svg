@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>SektchDevIcon_V2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SektchDevIcon_V2" fill="#F3F3F3">
+            <text id="Sketch-Copy" font-family="Futura-Medium, Futura" font-size="25" font-weight="400">
+                <tspan x="29.1103516" y="24">Sketch</tspan>
+            </text>
+            <g id="icon_48882" transform="translate(0.000000, 30.000000)" fill-rule="nonzero">
+                <path d="M96.5688889,0 L31.4311111,0 L0,29.3964497 L64,96 L128,29.3964497 L96.5688889,0 Z M92.8711111,31.1005917 L64,88.0473373 L35.1288889,31.1005917 L92.8711111,31.1005917 Z M36.9777778,27.9763314 L64,5.11242604 L91.0222222,27.9763314 L36.9777778,27.9763314 Z M68.2666667,4.68639053 L93.7244444,4.68639053 L93.7244444,26.1301775 L68.2666667,4.68639053 Z M34.1333333,26.2721893 L34.1333333,4.68639053 L59.7333333,4.68639053 L34.1333333,26.2721893 Z M31.7155556,31.1005917 L57.8844444,82.9349112 L8.10666667,31.1005917 L31.7155556,31.1005917 Z M96.2844444,31.1005917 L119.751111,31.1005917 L69.9733333,82.9349112 L96.2844444,31.1005917 Z M96.8533333,27.9763314 L96.8533333,6.67455621 L119.608889,27.9763314 L96.8533333,27.9763314 Z M31.0044444,27.9763314 L8.39111111,27.9763314 L31.0044444,6.81656805 L31.0044444,27.9763314 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
