@@ -155,12 +155,12 @@ h6 {
   font-weight: 300; }
 
 h1 {
-  font-family: 'Exodus', serif;
-  font-size: 80px;
+  font-size: 65px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   font-weight: 400;
-  margin-bottom: 45px; }
+  margin-bottom: 45px;
+  margin-top: 45px; }
 
 h2 {
   font-size: 30px; }
@@ -225,9 +225,11 @@ nav a:hover {
 header a {
   color: #fff; }
 
-header h4,
+header img {
+  width: 175px; }
+
 header h3 {
-  opacity: 0.3; }
+  opacity: 0.4; }
 
 .headerBar {
   display: -ms-flexbox;

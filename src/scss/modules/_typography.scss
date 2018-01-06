@@ -1,13 +1,12 @@
 @font-face {
     font-family: Exodus;
     src: url('../fonts/ExodusDemo-Striped.otf');
-    font-weight:400;
+    font-weight: 400;
 }
 
-
 body {
-  font-family: 'Lato', sans-serif;
-  color: $black;
+    font-family: 'Lato', sans-serif;
+    color: $black;
 }
 
 h1,
@@ -16,9 +15,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 h2,
@@ -26,41 +25,41 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 h1 {
-  font-family: 'Exodus', serif;
-  font-size: 80px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 400;
-  margin-bottom: 45px;
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    margin-bottom: 45px;
+    margin-top: 45px;
 }
 
 h2 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 h3 {
-  font-size: 26px;
+    font-size: 26px;
 }
 
 h4 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 h5 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 h6 {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 p {
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    margin: 0;
 }
