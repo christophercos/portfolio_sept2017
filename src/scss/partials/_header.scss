@@ -37,12 +37,17 @@ header a {
     color: #fff;
 }
 
-header img {
+.mainLogo {
     width: 175px;
 }
 
-header h3 {
-    opacity: 0.4;
+header h4 {
+    margin-top: 45px;
+}
+
+header h3,
+header h4 {
+    opacity: 0.5;
 }
 
 .headerBar {

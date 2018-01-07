@@ -155,12 +155,11 @@ h6 {
   font-weight: 300; }
 
 h1 {
-  font-size: 65px;
+  font-size: 75px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-weight: 400;
-  margin-bottom: 45px;
-  margin-top: 45px; }
+  font-weight: 300;
+  margin-bottom: 45px; }
 
 h2 {
   font-size: 30px; }
@@ -225,11 +224,15 @@ nav a:hover {
 header a {
   color: #fff; }
 
-header img {
+.mainLogo {
   width: 175px; }
 
-header h3 {
-  opacity: 0.4; }
+header h4 {
+  margin-top: 45px; }
+
+header h3,
+header h4 {
+  opacity: 0.5; }
 
 .headerBar {
   display: -ms-flexbox;
@@ -842,4 +845,6 @@ a {
   header h4 {
     font-size: 11px; }
   .introduction p {
-    width: 85%; } }
+    width: 85%; }
+  .mainLogo {
+    width: 75px; } }
